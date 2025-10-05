@@ -565,11 +565,10 @@ footer {
         box-shadow: 0px 0px 60px 35px #a855f7, 0px 0px 50px 85px #5b21b6ee;
     }
 }
-
 @media (max-width: 1024px) {
     .intro-avatar {
-        margin-left: 50px;
-        margin-top: 80px;
+        margin-left: 30px;
+        margin-top: 60px;
     }
 
     .intro-avatar img {
@@ -578,24 +577,45 @@ footer {
     }
 
     #intro-name {
-        left: 150px;
+        left: 200px;
+        top: 120px;
         font-size: 1.8rem;
     }
 
     #intro-education {
-        left: 150px;
+        left: 200px;
+        top: 80px;
         font-size: 1.4rem;
     }
 
     #intro-description {
-        left: 150px;
+        left: 200px;
+        top: 170px;
         font-size: 18px;
+        width: 60%;
+    }
+
+    .contact-section {
+        width: 90%;
+        left: 5%;
+        transform: none;
+    }
+
+    .project-description,
+    .project2-description {
+        width: 90%;
+        left: 5%;
+        right: auto;
     }
 }
+
 @media (max-width: 768px) {
     .intro-avatar {
-        margin-left: 30px;
-        margin-top: 60px;
+        margin: 40px auto 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
 
     .intro-avatar img {
@@ -604,76 +624,40 @@ footer {
         border-radius: 12px;
     }
 
-    #intro-name {
+    #intro-name,
+    #intro-education,
+    #intro-description {
         position: static;
-        margin-left: 30px;
-        margin-top: 20px;
+        margin: 10px 20px;
+        text-align: center;
+    }
+
+    #intro-name {
         font-size: 1.5rem;
     }
 
     #intro-education {
-        position: static;
-        margin-left: 30px;
-        margin-top: 10px;
         font-size: 1.2rem;
     }
 
     #intro-description {
-        position: static;
-        margin-left: 30px;
-        margin-top: 10px;
         font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .intro-avatar {
-        margin-left: 20px;
-        margin-top: 40px;
-    }
-
-    .intro-avatar img {
-        width: 100px;
-        height: 100px;
-        border-radius: 10px;
-    }
-
-    #intro-name {
-        margin-left: 20px;
-        font-size: 1.3rem;
-    }
-
-    #intro-education {
-        margin-left: 20px;
-        font-size: 1rem;
-    }
-
-    #intro-description {
-        margin-left: 20px;
-        font-size: 14px;
-    }
-
-    .contact-section {
-        width: 90%;
-        padding: 20px;
     }
 
     .project-card-wrapper,
     .project2-card-wrapper,
     .project-description,
     .project2-description {
-        width: 90%;
-        left: 5%;
-        right: 5%;
         position: static;
+        width: 90%;
         margin: 20px auto;
     }
 
     .project-title {
         position: static;
         text-align: center;
-        font-size: 1.5rem;
-        margin-bottom: 15px;
+        font-size: 1.6rem;
+        margin-top: 40px;
     }
 
     .project-deco-left,
@@ -681,6 +665,13 @@ footer {
     .project2-deco-left,
     .project2-deco-right {
         display: none;
+    }
+
+    .contact-section {
+        position: static;
+        width: 90%;
+        margin: 40px auto;
+        transform: none;
     }
 
     .footer-content {
@@ -691,5 +682,59 @@ footer {
 
     .social-links {
         justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-avatar {
+        margin-top: 30px;
+    }
+
+    .intro-avatar img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #intro-name {
+        font-size: 1.3rem;
+    }
+
+    #intro-education {
+        font-size: 1rem;
+    }
+
+    #intro-description {
+        font-size: 14px;
+    }
+
+    .list a {
+        margin: 15px;
+        font-size: 14px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .submit-btn {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .project-title {
+        font-size: 1.4rem;
+    }
+
+    .footer-content {
+        padding: 0 15px;
+    }
+
+    .footer-section h3 {
+        font-size: 18px;
+    }
+
+    .footer-section p,
+    .footer-links a {
+        font-size: 14px;
     }
 }
