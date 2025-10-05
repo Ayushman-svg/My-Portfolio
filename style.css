@@ -562,21 +562,17 @@ footer {
 }
 
 @keyframes glow {
-
     0%,
     100% {
         box-shadow: 0px 0px 50px 30px #f0f9ff, 0px 0px 40px 75px #4a157cee;
     }
-
     50% {
         box-shadow: 0px 0px 60px 35px #a855f7, 0px 0px 50px 85px #5b21b6ee;
     }
 }
 
 @media screen and (max-width: 1024px) {
-
-    body,
-    html {
+    body, html {
         height: auto;
     }
 
@@ -585,43 +581,43 @@ footer {
         padding: 15px 20px;
         justify-content: center;
     }
-
+    
     .navigation {
         flex-direction: column;
         width: 100%;
         gap: 15px;
     }
-
+    
     #logo {
         margin-right: 0;
     }
-
+    
     #nav-contact {
         margin-right: 0;
     }
-
+    
     .list {
         flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
     }
-
+    
     .list a {
         margin: 0;
         padding: 8px 15px;
     }
-
+    
     .intro-avatar {
         position: relative;
         margin: 120px auto 0;
         display: flex;
     }
-
+    
     .intro-avatar img {
         width: 150px;
         height: 150px;
     }
-
+    
     #intro-education,
     #intro-name,
     #intro-description {
@@ -633,36 +629,51 @@ footer {
         left: auto;
         top: auto;
     }
-
+    
     #intro-education {
         margin-top: 50px;
         font-size: 16px;
     }
-
+    
     #intro-name {
         margin-top: 50px;
         font-size: 28px;
     }
-
+    
     #intro-description {
         margin-top: 20px;
         margin-bottom: 50px;
         font-size: 16px;
     }
-
+    
     #about {
         position: relative;
         padding: 40px 20px;
     }
-
+    
     #about h2 {
         font-size: 1.8rem;
     }
-
+    
     #short-explanation {
         font-size: 18px;
     }
-
+    
+    .image-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px auto;
+    }
+    
+    .image-container img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        border-radius: 10px;
+    }
+    
     .project-title {
         position: relative;
         text-align: center;
@@ -670,13 +681,13 @@ footer {
         margin: 80px 20px 40px;
         font-size: 26px;
     }
-
+    
     #project-ferriswheel-title {
         position: relative;
         top: auto;
         left: auto;
     }
-
+    
     .project-deco-left,
     .project-deco-right {
         position: relative;
@@ -685,15 +696,15 @@ footer {
         margin: 0 auto;
         display: block;
     }
-
+    
     .project-deco-left {
         transform: translateX(-50px);
     }
-
+    
     .project-deco-right {
         transform: translateX(50px);
     }
-
+    
     .project-card-wrapper {
         position: relative;
         top: -80px;
@@ -705,12 +716,12 @@ footer {
         max-width: 100%;
         z-index: 2;
     }
-
+    
     .project-card-inner {
         width: calc(100% - 20px);
         max-width: 100%;
     }
-
+    
     .project-description {
         position: relative;
         top: auto;
@@ -723,13 +734,13 @@ footer {
         min-height: 150px;
         padding: 20px;
     }
-
+    
     #project-shopzone-title {
         position: relative;
         top: auto;
         right: auto;
     }
-
+    
     .project2-deco-left,
     .project2-deco-right {
         position: relative;
@@ -738,15 +749,15 @@ footer {
         margin: 0 auto;
         display: block;
     }
-
+    
     .project2-deco-left {
         transform: translateX(-50px);
     }
-
+    
     .project2-deco-right {
         transform: translateX(50px);
     }
-
+    
     .project2-card-wrapper {
         position: relative;
         top: -80px;
@@ -758,12 +769,12 @@ footer {
         max-width: 100%;
         z-index: 2;
     }
-
+    
     .project2-card-inner {
         width: calc(100% - 20px);
         max-width: 100%;
     }
-
+    
     .project2-description {
         position: relative;
         top: auto;
@@ -776,7 +787,7 @@ footer {
         min-height: 150px;
         padding: 20px;
     }
-
+    
     .contact-section {
         position: relative;
         top: auto;
@@ -786,21 +797,21 @@ footer {
         width: 90%;
         max-width: 600px;
     }
-
+    
     .contact-title {
         font-size: 28px;
     }
-
+    
     .contact-form {
         padding: 30px 20px;
     }
-
+    
     footer {
         position: relative;
         top: auto;
         margin-top: 60px;
     }
-
+    
     .footer-content {
         grid-template-columns: 1fr;
         padding: 0 20px;
@@ -813,62 +824,62 @@ footer {
         font-size: 14px;
         padding: 6px 12px;
     }
-
+    
     .intro-avatar img {
         width: 120px;
         height: 120px;
     }
-
+    
     #intro-name {
         font-size: 24px;
     }
-
+    
     #intro-education {
         font-size: 14px;
     }
-
+    
     #intro-description {
         font-size: 14px;
     }
-
+    
     #about h2 {
         font-size: 1.5rem;
     }
-
+    
     #short-explanation {
         font-size: 16px;
     }
-
+    
     .project-title,
     #project-ferriswheel-title,
     #project-shopzone-title {
         font-size: 22px;
     }
-
+    
     .project-card-wrapper,
     .project2-card-wrapper {
         width: 95%;
         height: 170px;
     }
-
+    
     .project-card-inner,
     .project2-card-inner {
         height: 150px;
     }
-
+    
     .contact-title {
         font-size: 24px;
     }
-
+    
     .contact-form {
         padding: 20px 15px;
     }
-
+    
     .form-group input,
     .form-group textarea {
         font-size: 14px;
     }
-
+    
     .submit-btn {
         font-size: 16px;
     }
