@@ -581,8 +581,17 @@ footer {
         left: 150px;
         font-size: 1.8rem;
     }
-}
 
+    #intro-education {
+        left: 150px;
+        font-size: 1.4rem;
+    }
+
+    #intro-description {
+        left: 150px;
+        font-size: 18px;
+    }
+}
 @media (max-width: 768px) {
     .intro-avatar {
         margin-left: 30px;
@@ -603,13 +612,16 @@ footer {
     }
 
     #intro-education {
+        position: static;
         margin-left: 30px;
-        margin-top: 40px;
+        margin-top: 10px;
         font-size: 1.2rem;
     }
 
     #intro-description {
+        position: static;
         margin-left: 30px;
+        margin-top: 10px;
         font-size: 16px;
     }
 }
@@ -639,5 +651,45 @@ footer {
     #intro-description {
         margin-left: 20px;
         font-size: 14px;
+    }
+
+    .contact-section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .project-card-wrapper,
+    .project2-card-wrapper,
+    .project-description,
+    .project2-description {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        position: static;
+        margin: 20px auto;
+    }
+
+    .project-title {
+        position: static;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .project-deco-left,
+    .project-deco-right,
+    .project2-deco-left,
+    .project2-deco-right {
+        display: none;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .social-links {
+        justify-content: center;
     }
 }
